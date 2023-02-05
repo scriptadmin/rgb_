@@ -1,1 +1,2 @@
-# rgb_
+Start RGB_
+(⌒▽⌒)☆

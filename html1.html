@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RGB_</title>
+        <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="fvcn.ico" />
+
+    </head>
+
+    <body>
+
+        <b></b>
+        <small>
+            <h1 style="color:rgb(244, 119, 255)">RGB_</h1> 
+            움직이기 ⍇⍐⍈⍗</small>
+        <div id="score">0</div>
+        <div id="highest">0</div>
+        <canvas id="gameCanvas" width="1350" height="470"></canvas>
+        <p style="text-align:right;">ver.beta</p>
+
+        <style>
+            body {
+                background:  linear-gradient(to right, red, blue, rgb(0, 255, 0));
+            }
+
+            #gameCanvas {
+                
+                top: 100px;
+                left: 450px;
+            }
+            #score {
+                position: absolute;
+                top: 10px;
+                left: 600px;
+                text-align: center;
+                font-size: 70px;
+                font-family: 'antic slab', serif;
+            }
+
+            #highest {
+                text-align: center;
+                font-size: 30px;
+                font-family: 'Antic Slab', serif;
+            }
+        </style>
+            <script src="./js.js"></script>
+    </body>
+
+</html>
